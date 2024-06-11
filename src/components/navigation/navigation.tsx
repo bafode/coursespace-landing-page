@@ -17,7 +17,7 @@ const Navigation: FC = () => {
           duration={350}
           sx={{
             position: 'relative',
-            color: 'text.disabled',
+            color: 'secondary.main',
             cursor: 'pointer',
             fontWeight: 600,
             display: 'inline-flex',
@@ -35,7 +35,7 @@ const Navigation: FC = () => {
             '&.current>div': { display: 'block' },
 
             '&:hover': {
-              color: 'primary.main',
+              color: 'white',
               '&>div': {
                 display: 'block',
               },

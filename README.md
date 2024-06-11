@@ -1,18 +1,18 @@
 <h1 align="center">
-  <a href="https://github.com/hiriski/coursespace-landing-page">
-  Coursespace - React Online Course Landing Page
+  <a href="https://github.com/bafode/coursespace-landing-page">
+  Beehive Space - Beehive Landing Page
   </a>
   <br />
 </h1>
 
-![screenshot](public/images/image_processing20220419-31825-1yzr3x9.png)
+![screenshot](public/images/beehive_capture1.png)
 
-**Coursespace** is a free landing page template built on top of Material UI and fully coded in **React**.
+**Beehive**  landing page is built on top of Material UI and fully coded in **React**.
 Simple & light is designed to provide all the basic components using the `sx` prop for a developer need to create landing page for Online Course product.
 
 ## Live Demo
 
-Take a look the live demo here 👉 [https://coursespace.vercel.app/](https://coursespace.vercel.app/)
+Take a look the live demo here 👉 [https://beehave.vercel.app/](https://beehave.vercel.app/)
 
 ## Getting Started
 
@@ -59,10 +59,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 <h6>
   <br />
   <p>
-   <a href="https://dribbble.com/naiflaramadhan"><img src="https://cdn.dribbble.com/users/5147050/avatars/normal/cd7b217b7d0cde417ef7d64ac123363d.png" alt="Alfian Ramadhan" width="52" height="52"></a>
+   <a href="https://github.com/bafode"><img src="" alt="Bafode Camara" width="52" height="52"></a>
   </p>
   <p>
   Designed by
   <p> 
-  <a href="https://dribbble.com/naiflaramadhan">Alfian Ramadhan</a>
+  <a href="https://github.com/bafode">Bafode Camara</a>
 </h6>
