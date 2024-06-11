@@ -14,7 +14,7 @@ const style = {
     borderRadius: 3,
     border: '1px solid',
     borderColor: 'primary.main',
-    minHeight: '28vw',
+    minHeight: '32vw',
     backgroundColor: "#F3F2FF"
 };
 

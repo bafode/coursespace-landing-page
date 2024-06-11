@@ -10,7 +10,7 @@ const HomeHero: FC = () => {
     <Box id="" sx={{ backgroundImage: `url(/backgroundhero.svg) `, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', position: 'relative', paddingTop: '7rem' }}>
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={12} md={8}>
+          <Grid item xs={12} sm={6} md={8}>
             <Box sx={{
               textAlign: { xs: 'center', md: 'left' },
               mb: 3
@@ -116,7 +116,7 @@ const HomeHero: FC = () => {
             </Box>
             <Grid columnSpacing={5} container rowSpacing={2} sx={{ flexDirection: { xs: 'column', md: 'row' } }} >
               <Grid item md={12} container spacing={1}>
-                <Grid item xs={12} md={6} >
+                <Grid item xs={12} sm={12} md={6} >
                   <Box
                     sx={{
                       textAlign: { xs: 'center', md: 'left' },
@@ -132,7 +132,7 @@ const HomeHero: FC = () => {
                       component="mark"
                       sx={{
                         color: 'white',
-                        fontSize: { xs: 12, md: 24 },
+                        fontSize: { xs: 16, md: 24 },
                         fontWeight: 'bold',
                         backgroundColor: 'unset',
                         textAlign: 'center'
@@ -145,7 +145,7 @@ const HomeHero: FC = () => {
                       component="mark"
                       sx={{
                         color: 'white',
-                        fontSize: { xs: 9, md: 20 },
+                        fontSize: { xs: 12, md: 20 },
                         fontWeight: 'normal',
                         backgroundColor: 'unset',
                       }}
@@ -154,7 +154,7 @@ const HomeHero: FC = () => {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item xs={12} md={6} >
+                <Grid item xs={12} sm={12} md={6} >
                   <Box
                     alignSelf={'center'}
                     justifySelf={'center'}
@@ -175,6 +175,7 @@ const HomeHero: FC = () => {
                         letterSpacing: 1.5,
                         fontWeight: 'bold',
                         lineHeight: 1.3,
+                        textAlign: 'center',
                       }}
                     >
                       <Typography
@@ -184,6 +185,7 @@ const HomeHero: FC = () => {
                           fontSize: 'inherit',
                           fontWeight: 'inherit',
                           backgroundColor: 'unset',
+                          textAlign: 'center',
 
                         }}
                       >
@@ -198,11 +200,12 @@ const HomeHero: FC = () => {
                     </Typography>
                   </Box>
                 </Grid>
-                <Grid item md={12}  >
+                <Grid item xs={12} sm={12} md={12}  >
                   <Box
                     padding={'1rem'}
                     sx={{
                       borderRadius: 1,
+                      textAlign: 'center',
                       bgcolor: '#FEBF21',
                       '&:hover': {
                         bgcolor: 'primary.dark',
@@ -220,7 +223,7 @@ const HomeHero: FC = () => {
                         component="mark"
                         sx={{
                           color: 'primary.main',
-                          fontSize: { xs: 10, md: 20 },
+                          fontSize: { xs: 16, md: 26 },
                           fontWeight: 'bold',
                           backgroundColor: 'unset',
                         }}
@@ -232,7 +235,7 @@ const HomeHero: FC = () => {
                         component="mark"
                         sx={{
                           color: 'primary.main',
-                          fontSize: { xs: 10, md: 20 },
+                          fontSize: { xs: 14, md: 24 },
                           fontWeight: 'normal',
                           backgroundColor: 'unset',
                         }}
@@ -245,18 +248,18 @@ const HomeHero: FC = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={12} md={4}>
+          <Grid item xs={12} sm={6} md={4}>
             <Box
               sx={{
-                display: { xs: 'none', sm: 'none', md: 'inline-block' },
-                width: "100%", height: '100%',
+                display: { xs: 'none', sm: 'inline-block', md: 'inline-block' },
+                width: "50vw", height: '70vh',
                 position: 'relative'
               }}>
               <LazyLoadImage
                 style={{ objectFit: 'cover' }}
                 src="/images/beehive_logo.png"
-                width={'130%'}
-                height={'130%'}
+                width={'100%'}
+                height={'100%'}
                 effect="opacity"
                 alt={''}
               />

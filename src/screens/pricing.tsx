@@ -4,7 +4,7 @@ import React, { FC, } from "react";
 const Pricing: FC = () => {
 
     return (
-        <Box sx={{ backgroundColor: 'background.paper', py: { xs: 2, md: 4 } }}>
+        <Box id='nos-offres' sx={{ backgroundColor: 'background.paper', py: { xs: 2, md: 4 } }}>
             <Container>
                 <Box
                     sx={{

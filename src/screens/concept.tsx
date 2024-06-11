@@ -3,7 +3,7 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
 import { Concept } from '@/interfaces/concept'
-import { ConceptCard } from '../concept'
+import { ConceptCard } from '../components/concept'
 import { conceptData } from './concepts.data'
 import { Grid } from '@mui/material'
 
@@ -17,6 +17,7 @@ const HomeOurConcept: FC = () => {
                 backgroundColor: 'background.paper',
                 pt: {
                     xs: 10,
+                    sm: 30,
                     md: 40,
                     lg: 15
                 },

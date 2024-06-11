@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Typography from '@mui/material/Typography'
-import { StyledButton } from '../styled-button'
+import { StyledButton } from '../components/styled-button'
 import { Card, CardActions, CardContent, CardMedia } from '@mui/material'
 import Image from 'next/image'
 

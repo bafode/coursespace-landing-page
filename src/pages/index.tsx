@@ -3,12 +3,12 @@ import dynamic from 'next/dynamic'
 import { NextPageWithLayout } from '@/interfaces/layout'
 import { MainLayout } from '@/components/layout'
 import { Grid } from '@mui/material'
-const DynamicHomeHero = dynamic(() => import('../components/home/hero'))
-const DynamicHomeOurConcepts = dynamic(() => import('../components/home/concept'))
-const DynamicHomeNewsLetter = dynamic(() => import('../components/home/newsletter'))
-const DynamicHomeComprendre = dynamic(() => import('../components/home/comprendre'))
-const DynamicHomeTelecharger = dynamic(() => import('../components/home/telecharger'))
-const DynamicHomePricing = dynamic(() => import('../components/home/pricing'))
+const DynamicHomeHero = dynamic(() => import('../screens/hero'))
+const DynamicHomeOurConcepts = dynamic(() => import('../screens/concept'))
+const DynamicHomeNewsLetter = dynamic(() => import('../screens/newsletter'))
+const DynamicHomeComprendre = dynamic(() => import('../screens/comprendre'))
+const DynamicHomeTelecharger = dynamic(() => import('../screens/telecharger'))
+const DynamicHomePricing = dynamic(() => import('../screens/pricing'))
 
 const Home: NextPageWithLayout = () => {
   return (

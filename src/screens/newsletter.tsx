@@ -3,13 +3,13 @@ import Box from '@mui/material/Box';
 import InputBase from '@mui/material/InputBase';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
-import { StyledButton } from '../styled-button';
+import { StyledButton } from '../components/styled-button';
 import { Grid } from '@mui/material';
 import Image from 'next/image';
 
 const HomeNewsLetter: FC = () => {
   return (
-    <Box id='contacts' sx={{ backgroundColor: 'background.paper', py: { xs: 2, md: 4 } }}>
+    <Box id='contact' sx={{ backgroundColor: 'background.paper', py: { xs: 2, md: 4 } }}>
       <Container>
 
         <Box
