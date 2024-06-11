@@ -87,7 +87,7 @@ const HomeHero: FC = () => {
                 Beehive
               </Typography>
             </Box>
-            <Box sx={{ minHeight: 60 }}>
+            <Box sx={{ minHeight: { xs: '120px', sm: '160px', md: '60px' } }}>
               <Typography sx={{ color: 'white', lineHeight: 1.6 }}>
                 <TypeAnimation
                   sequence={[
