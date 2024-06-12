@@ -14,7 +14,7 @@ const style = {
     borderRadius: 3,
     border: '1px solid',
     borderColor: 'primary.main',
-    minHeight: '32vw',
+    minHeight: 'auto',
     backgroundColor: "#F3F2FF"
 };
 
@@ -23,11 +23,11 @@ const ConceptCard: FC<Props> = ({ item }) => {
         <Card sx={style}>
 
             <CardContent>
-                <Typography textAlign={"center"} gutterBottom variant="h5" component="div" fontSize={"2rem"}>
+                <Typography textAlign={"center"} gutterBottom variant="h5" component="div" fontSize={"1.2rem"}>
                     {item.title}
                 </Typography>
                 <Divider />
-                <Typography variant="body2" color="text.secondary" fontSize={"1.5rem"}>
+                <Typography variant="body2" color="text.secondary" fontSize={"1.2rem"}>
                     {item.description}
                 </Typography>
             </CardContent>

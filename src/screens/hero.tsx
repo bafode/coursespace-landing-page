@@ -10,7 +10,7 @@ const HomeHero: FC = () => {
     <Box id="" sx={{ backgroundImage: `url(/backgroundhero.svg) `, height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', position: 'relative', paddingTop: '7rem' }}>
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={6} md={8}>
+          <Grid item xs={12} sm={12} md={8}>
             <Box sx={{
               textAlign: { xs: 'center', md: 'left' },
               mb: 3
@@ -248,10 +248,10 @@ const HomeHero: FC = () => {
               </Grid>
             </Grid>
           </Grid>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={12} md={4}>
             <Box
               sx={{
-                display: { xs: 'none', sm: 'inline-block', md: 'inline-block' },
+                display: { xs: 'none', sm: 'none', md: 'inline-block' },
                 width: "50vw", height: '70vh',
                 position: 'relative'
               }}>

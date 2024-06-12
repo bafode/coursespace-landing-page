@@ -11,34 +11,29 @@ import { Grid } from '@mui/material'
 const HomeOurConcept: FC = () => {
 
     return (
-        <Box
-            id="concepts"
-            sx={{
-                backgroundColor: 'background.paper',
-                pt: {
-                    xs: 10,
-                    sm: 30,
-                    md: 40,
-                    lg: 15
-                },
-                pb: {
-                    xs: 5,
-                    md: 16,
-                }
-            }}
-        >
+        <Box id='concepts' sx={{ backgroundColor: 'background.paper', py: { xs: 2, md: 4 } }}>
             <Container>
-                <Typography textAlign={"center"} color={"primary.main"} variant="h1" sx={{ fontSize: 40, paddingBottom: 8 }}>
-                    Notre Concept
-                </Typography>
-                <Grid container spacing={1} maxWidth="lg" >
-                    {conceptData.map((item: Concept) => (
-                        <Grid key={item.id} item xs={12} sm={6} md={6} lg={4}>
-                            <ConceptCard key={item.id} item={item} />
-                        </Grid>
-                    ))}
+                <Box
+                    sx={{
+                        backgroundColor: 'background.paper',
+                        borderRadius: 10,
+                        py: { xs: 16, md: 28, lg: 16 },
+                        px: { xs: 4, md: 8 },
+                        textAlign: 'center'
+                    }}>
+                    <Typography variant="h1" color={'primary.main'} sx={{ fontSize: 40, pb: '2rem' }}>
+                        Découvre nos offres
+                    </Typography>
+                    <Grid container spacing={4}>
 
-                </Grid>
+                        {conceptData.map((item: Concept) => (
+                            <Grid key={item.id} item xs={12} sm={6} md={4} lg={4}>
+                                <ConceptCard key={item.id} item={item} />
+                            </Grid>
+                        ))}
+
+                    </Grid>
+                </Box>
             </Container>
         </Box>
     )
